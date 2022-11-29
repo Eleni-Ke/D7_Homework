@@ -78,9 +78,27 @@ console.log(compareNamesInLowerCases);
 
 x = 6; 
 //I can't assign the same name to another variable, so I reused the variable from exercise 4. Recycling variable :D
-if (x===6){
+if (x === 1){
+    console.log("one");
+} else if (x === 2) {
+    console.log("two");
+} else if (x === 3) {
+    console.log("three");
+} else if (x === 4) {
+    console.log("four");
+} else if (x === 5) {
+    console.log("five");
+} else if (x === 6) {
     console.log("six");
-    }
+} else if (x === 7) {
+    console.log("seven");
+} else if (x === 8) {
+    console.log("eight");
+} else if (x === 9) {
+    console.log("nine");
+} else {
+    console.log("The number is too high");
+}
 
 /* EXERCISE 9
  [Extra] Assign a value to a variable using a ternary operator (this topic has not been covered during lesson yet,
