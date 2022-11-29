@@ -97,7 +97,7 @@ if (x === 1){
 } else if (x === 9) {
     console.log("nine");
 } else {
-    console.log("The number is too high");
+    console.log("The number does not meet the expectations.");
 }
 
 /* EXERCISE 9
