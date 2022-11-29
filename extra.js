@@ -108,7 +108,7 @@ console.log("The longest string is: ", longestString);
  Write a piece of code for checking if a given value is a integer or not.
 */
 
-let maybeAnInteger = 1.32;
+let maybeAnInteger = 1;
 
 (maybeAnInteger % 1) === 0 ? (console.log("It is an integer")) : (console.log("It is not an integer..."));
 
@@ -118,8 +118,9 @@ let maybeAnInteger = 1.32;
 */
 
 let randomNumber = 40;
-let tenPercentOfNumber = randomNumber * 0.1;
-console.log(tenPercentOfNumber);
+let percentageSearched = 10;
+let findPercentage = randomNumber * (percentageSearched / 100);
+console.log(findPercentage);
 
 /*EX 9
  Write a piece of code for checking if a given number is even or odd.

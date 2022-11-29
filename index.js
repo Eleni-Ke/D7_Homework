@@ -68,8 +68,7 @@ let name2 = "John";
 let compareNames = name1 === name2;
 console.log(compareNames);
 
-let compareNamesInLowerCases = name1.toLowerCase() === name2.toLocaleLowerCase();
-console.log(compareNamesInLowerCases);
+console.log("The names are the same:", name1.toLowerCase() === name2.toLocaleLowerCase());
 
 /* EXERCISE 8
  Create a variable named x, and assign to it a numeric value less than 10.
@@ -78,7 +77,9 @@ console.log(compareNamesInLowerCases);
 
 x = 6; 
 //I can't assign the same name to another variable, so I reused the variable from exercise 4. Recycling variable :D
-if (x === 1){
+if (x === 0){
+    console.log("zero");
+} else if (x === 1) {
     console.log("one");
 } else if (x === 2) {
     console.log("two");
@@ -108,6 +109,6 @@ if (x === 1){
 let height = 172;
 let ridingRollerCoaster;
 
-height >= 150 ? (ridingRollerCoaster = "You can ride the roller coaster!") : (ridingRollerCoaster = "You cannot ride the roller coaster.");
+height > 150 ? (ridingRollerCoaster = "You can ride the roller coaster!") : (ridingRollerCoaster = "You cannot ride the roller coaster.");
 
 console.log(ridingRollerCoaster);
